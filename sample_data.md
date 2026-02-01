@@ -1,0 +1,27 @@
+note: one of the fields on the original python class for a game was 'image'.
+This field is not present in this mockup data, because it would look the same for all
+entries (By being a web URL and/or file path) and would make the mockup data look longer
+than needed. It is replaced with a 'content rating' field for this demonstration. Both 
+fields will be present in the final project.
+
+| Title | Release Date | Genre | Content Rating | 
+
+| The Legend of Zelda: Breath of the Wild | 03/03/2017 | Action-adventure | E10+ |
+
+| Super Mario Odyssey | 10/27/2017 | 3D platformer | E10+ |
+
+| Kirby Star Allies | 03/16/2018 | 2D platformer | E |
+
+| Super Smash Bros. Ultimate | 12/07/2018 | Fighting | E10+ |
+
+| Pokémon Sword and Shield | 11/15/2019 | Role-playing  | E |
+
+| Clubhouse Games: 51 Worldwide Classics | 06/05/2020 | Party | E |
+
+| Metroid Dread | 10/08/2021 | Action-adventure | T |
+
+| Mario Party Superstars | 10/29/2021 | Party | E |
+
+| Pikmin 4 | 07/21/2023 | Real-time strategy  | E10+ |
+
+| Pokémon Legends: Z-A | 10/16/2025 | Action RPG  | E10+ |

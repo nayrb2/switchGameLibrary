@@ -1,9 +1,11 @@
 {% extends "base.html" %}
+{% load static %}
 
 {% block title %}
-    Gamer
+    Switch Games
 {% endblock %}
 
 {% block content %}
-    <h1>Switch Game Library</h1><p>test</p>
+    <h1>Switch Game Library</h1>
+    <img src="{% static 'images/switchHero.png' %}" alt="A Nintendo Switch console">
 {% endblock %}
