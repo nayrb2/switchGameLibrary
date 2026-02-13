@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}{{ game.title }}{% endblock %}
+
+{% block content %}
+    <h1>{{ game.title }}</h1>
+    {% if game.is_switch_2 %}
+        <p><strong>Exclusive to Switch 2</strong></p>
+    {% endif %}
+    <p>Genre: {{ game.genre }}</p>
+    <p>Content Rating: {{ game.content_rating }}</p>
+    <p>Released on: {{ game.release_date }}</p>
+
+    <p><a href="{% url 'landing_page_view' %}">Back to Listing</a></p>
+{% endblock %}

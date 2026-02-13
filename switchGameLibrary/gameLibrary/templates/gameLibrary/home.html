@@ -7,5 +7,10 @@
 
 {% block content %}
     <h1>Switch Game Library</h1>
-    <img src="{% static 'images/switchHero.png' %}" alt="A Nintendo Switch console">
+    <img src="{% static 'images/switchHero.png' %}" alt="A Nintendo Switch console" style="width: 50%">
+    <ul>
+        {% for game in games %}
+        <li><a href="{{ game.get_absolute_url }}">{{ game.title }} ({{ game.content_rating }}) ({{ game.release_date }})</a></li>
+        {% endfor %}
+    </ul>
 {% endblock %}
